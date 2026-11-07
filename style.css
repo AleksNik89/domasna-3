@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e8;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #8b4513;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.recept {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    border: 2px solid #d2b48c;
+    border-radius: 15px;
+    margin: 20px 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.recept img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recept h2 {
+    color: #a0522d;
+    font-size: 24px;
+}
+
+.recept p {
+    color: #555555;
+    font-size: 15px;
+}
+
+.recept .cena {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.recept button {
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.recept button:hover {
+    background-color: #5c2e0b;
+}
+
+.recept:hover {
+    border-color: orange;
+    background-color: #fff0d6;
+    margin-top: 30px;
+}
